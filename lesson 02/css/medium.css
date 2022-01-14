@@ -2,21 +2,21 @@
     body {
         margin: 0;
     }
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
     header h1{
         font-size: 24px;
     }  
     header h2 {
         font-size: 18px;
     }
-    main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    }
-    .contrast {
-        grid-column: 1;
-        
-    }
-    .align {
-        grid-column: 2;
-    }
+   section {
+       min-height: 1000px;
+   }
 }
