@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1450px) {
+    body {
+        margin: 0;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    header h1 {
+        font-size: 52px;
+        color: white;
+    }
+    header h2 {
+        font-size: 46px;
+        color: white;
+    }
+    
+}

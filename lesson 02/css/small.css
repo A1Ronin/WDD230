@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+    body {
+        margin: 0;
+    }
+    header h1{
+        font-size: 24px;
+    }  
+    header h2 {
+        font-size: 18px;
+    }
+        
+}

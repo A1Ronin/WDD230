@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1080px) {
+    body {
+        margin: 0;
+    }
+    header h1{
+        font-size: 24px;
+    }  
+    header h2 {
+        font-size: 18px;
+    }
+    main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .contrast {
+        grid-column: 1;
+        
+    }
+    .align {
+        grid-column: 2;
+    }
+}
